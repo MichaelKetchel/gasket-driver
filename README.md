@@ -9,6 +9,11 @@ This repo contains both the source for direct integration into a kernel tree as 
 
 ## Building Debian DKMS pacakge
 
+Install build requirements:
+```
+sudo apt install dkms devscripts build-essential debhelper dh-dkms
+```
+
 From the top level directory, execute:
 
 ```
